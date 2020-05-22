@@ -33,12 +33,8 @@ def deep_nude_process(item):
 
 
 if __name__ == '__main__':
-	#parser = argparse.ArgumentParser(description="simple deep nude script tool")
-	#parser.add_argument("-i", "--input", action="store", nargs="*", default="input.png",					help="Use to enter input one or more files's name")
-	#parser.add_argument("-o", "--output", action="store", default="output.png",						help="Use to enter output file name")
-	#inputpath, outputpath= parser.parse_args().input, parser.parse_args().output
-	#main(inputpath, outputpath)
+	
 
-	inputpath = 'images/file.jpg'
-	outputpath = 'images/renderizada.jpg'
+	inputpath = '/content/SIMPLE-Deepfake-Google-Colab/images/file.jpg'
+	outputpath = '/content/SIMPLE-Deepfake-Google-Colab/images/renderizada.jpg'
 	main(inputpath,outputpath)

@@ -64,13 +64,13 @@ class Options():
 	def updateOptions(self, phase):
 
 		if phase == "correct_to_mask":
-			self.checkpoints_dir = "checkpoint/cm.lib"
+			self.checkpoints_dir = "/content/SIMPLE-Deepfake-Google-Colab/checkpoint/cm.lib"
 
 		elif phase == "maskref_to_maskdet":
-			self.checkpoints_dir = "checkpoint/mm.lib"
+			self.checkpoints_dir = "/content/SIMPLE-Deepfake-Google-Colab/checkpoint/mm.lib"
 
 		elif phase == "maskfin_to_nude":
-			self.checkpoints_dir = "checkpoint/mn.lib"
+			self.checkpoints_dir = "/content/SIMPLE-Deepfake-Google-Colab/checkpoint/mn.lib"
 
 # process(cv_img, mode)
 # return:
